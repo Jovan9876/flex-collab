@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header {
+  background-color: lightblue;
+  flex: 1 0 100%;
+}
+main {
+  background-color: grey;
+  flex: 1 0 500px;
+  order: 2;
+}
+nav {
+  background-color: lightgreen;
+  flex: 1 0 200px;
+  order: 1;
+}
+aside {
+  background-color: green;
+  flex: 1 0 200px;
+  order: 3;
+}
+footer {
+  background-color: pink;
+  flex: 1 0 100%;
+  order: 4;
+}
